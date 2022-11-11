@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box ; 
+    padding: 0 ;
+    margin: 0 ; 
+}
+form h1{
+    position: relative ;
+    left : 170px ;
+    top : -30px  ;
+    color : #4070fa ;
+    font-size: 40px   ; 
+    font-weight: bold ; 
+    letter-spacing: 3px; 
+  }
+/* start body style */
+body{
+    height: 100vh ; 
+    background: #010718; 
+    display: flex ;
+    justify-content: center ; 
+    align-items: center ;
+    font-family: "Trirong", serif;
+}
+/* end body style */
+/* =============== */
+/* start form-input style */
+form .input-form{
+    width : 630px ;
+    height: 110px ; 
+    background: white ; 
+    border-radius: 30px;
+}
+.input-form .first-input {
+    margin-top: 25px; 
+    margin-left: 25px ; 
+    width :  80%   ; 
+    padding : 10px ;   
+}
+form input{
+    font-size: 20px;
+}
+/* end form-input style */
+/* ===================== */
+/* Start form-error style */
+form.error .input-form .text {
+    margin-top: 3px ;
+     margin-left: 30px ;
+     font-weight: 400  ;
+     color : #de0611 ; 
+     font-weight: bold;
+}
+form.error .first-input{
+    border-color : #de0611 ; 
+}
+/* end form-error style */
+/* ======================== */
+ /* Start from-valid style */ 
+form.valid .input-form .text{
+    margin-top: 3px ;
+    margin-left: 30px ;
+    font-weight: 400  ;
+    color : #1748cf ;
+    font-weight: bold;
+}
+form.valid .first-input{
+    border-color : #1748cf ; 
+}
+/* end from-Valid style */
+/* start form-button-style */
+.input-form .first-button{
+    padding: 13px ; 
+    margin-left: 6px ;
+    border-radius: 5px ;
+    background:  #4070fa   ;
+    color : white  ;
+    font-size: 15px  ;
+    font-weight: 800 ;
+    position: relative ; 
+    top : -2px ;
+    cursor: pointer;  
+    border: none;
+}
+/* end form-button-style */
+input::placeholder{
+    position: relative;
+    left : 1px  ;
+    font-weight: bolder ;
+}
